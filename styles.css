@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    font-family: "Ubuntu";
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(94, 92, 92);
+}
+h1{
+    font-size: 3rem;
+    color: rgb(150, 87, 210);
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: rgb(77, 76, 76);
+    padding: 2em;
+    font-size: 1.5rem;
+    border-radius: 3%;
+    margin-top: 9rem;
+}
+.generatebtn {
+    padding: 1rem 2rem;
+    font-size: 25px;
+    background-color: rgb(23, 22, 22);
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    font-family: "Ubuntu";
+}
