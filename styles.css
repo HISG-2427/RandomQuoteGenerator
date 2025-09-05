@@ -4,6 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(94, 92, 92);
+    cursor: none;
 }
 h1{
     font-size: 3rem;
@@ -21,13 +22,31 @@ h1{
     width: 500px;
     height: 400px;
 }
+.cursor-dot {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+}
+.cursor-outline{
+    height: 40px;
+    width: 40px;
+    border: 2px solid hsla(0, 0%, 100%, 0.5)
+}
+.cursor-dot, .cursor-outline{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
+}
 .generatebtn {
     padding: 1rem 2rem;
     font-size: 25px;
     background-color: rgb(23, 22, 22);
     font-weight: 600;
     color: white;
-    cursor: pointer;
     font-family: "Ubuntu";
     border-radius: 5%;
 }
