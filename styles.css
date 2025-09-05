@@ -17,7 +17,9 @@ h1{
     padding: 2em;
     font-size: 1.5rem;
     border-radius: 3%;
-    margin-top: 9rem;
+    margin-top: 3rem;
+    width: 500px;
+    height: 400px;
 }
 .generatebtn {
     padding: 1rem 2rem;
@@ -27,4 +29,5 @@ h1{
     color: white;
     cursor: pointer;
     font-family: "Ubuntu";
+    border-radius: 5%;
 }
