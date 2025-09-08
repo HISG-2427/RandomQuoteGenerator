@@ -42,6 +42,9 @@ h1{
     z-index: 1;
     pointer-events: none;
 }
+img{
+    mix-blend-mode: none;
+}
 .generatebtn {
     padding: 1rem 2rem;
     font-size: 25px;
@@ -50,4 +53,17 @@ h1{
     color: white;
     font-family: "Ubuntu";
     border-radius: 5%;
+}
+.fadeInUp {
+  animation: 1s fadeInUp;
+}
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
 }
